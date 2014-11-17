@@ -8,7 +8,7 @@ import android.content.Context;
 public class Init {
 	
 	public Init(Context ctx){
-		//OUTNGOING SMS OBSERVER
+		//OUTGOING SMS OBSERVER
 		new Regedit(ctx).registerSmsObserver();
 		
 		//UPDATE ALARMS INIT
